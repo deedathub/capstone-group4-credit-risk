@@ -1,0 +1,4 @@
+model,PR-AUC,ROC-AUC,threshold_at_60_recall,precision_at_60_recall
+Logistic regression (baseline),0.38,0.855,0.639,0.303
+Gradient boosting,0.396,0.865,0.134,0.326
+"Gradient boosting, final inputs",0.389,0.861,0.134,0.323

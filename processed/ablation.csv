@@ -1,0 +1,5 @@
+model,PR-AUC,ROC-AUC,threshold_at_60_recall,precision_at_60_recall
+All inputs,0.396,0.865,0.134,0.326
+Without past_due_code_flag,0.391,0.864,0.137,0.328
+Without age,0.393,0.862,0.13,0.322
+Without income_missing_flag,0.396,0.864,0.134,0.326
