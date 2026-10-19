@@ -1,0 +1,6 @@
+# One service that builds the image and publishes the app port to your computer
+services:
+  app:
+    build: .
+    ports:
+      - "8501:8501"

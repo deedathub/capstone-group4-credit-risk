@@ -1,0 +1,6 @@
+# Keep large and unneeded folders out of the build
+venv/
+.venv/
+Dataset/
+processed/
+.git/

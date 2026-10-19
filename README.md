@@ -56,3 +56,10 @@ To rerun the notebooks, also install matplotlib, seaborn, jupyter, ipykernel and
 - Age was left out of the final model because it is a sensitive input in lending. Recall still falls with age, from 69.3% for ages 18 to 29 to 53.5% for 60 and over.
 - About a third of delinquent borrowers had no late payments and the model mostly misses them.
 - The demo is for demonstration only and not for real lending decisions.
+With Docker instead:
+
+```
+docker compose up --build
+```
+
+Live demo: https://capstone-group4-credit-risk-qxdkf8mhigsaocvvuvccdm.streamlit.app/
